@@ -5,6 +5,8 @@ BaseBot is a Discord bot made by SpaceX that is simple to use. Below is the inst
 
 # How to install
 
+Firstly install python 3.5 like normal, go to https://www.python.org/downloads/release/python-350/ and follow instructions there.
+
 <b> Windows </b>
 You should type in command prompt
 ```
