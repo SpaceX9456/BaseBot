@@ -13,7 +13,8 @@ python3 -m pip install -U discord.py
 
 <b> Linux </b>
 Type in in console 
-```pip install discord.py
+```
+pip install discord.py
 ```
 # How to modify.
 
