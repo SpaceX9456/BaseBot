@@ -30,3 +30,9 @@ And Add:
 if message.content.startswith(prefix + "commandname"):
   Do stuff
 ```
+# How to run
+To run for first time, follow the instructions on the console/command prompt and that explains how you will get it going, Here are the links that are on there to help you! <br>
+```
+https://discordapp.com/developers/applications/me <br>
+https://discord.gg/SAERSza
+```
