@@ -36,3 +36,7 @@ To run for first time, follow the instructions on the console/command prompt and
 https://discordapp.com/developers/applications/me 
 https://discord.gg/SAERSza
 ```
+<br> If you are Running on windows just launch the Launch.bat if you are on linux, type in the console:
+```
+python3.5 launcher.py
+```
