@@ -4,7 +4,6 @@ import sys
 import time
 import logging
 import tempfile
-import colorlog
 import traceback
 import subprocess
 from time import gmtime, strftime
