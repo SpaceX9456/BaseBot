@@ -28,20 +28,20 @@ if setup == "no":
     print("Thank you, I have received your token")
     print("--------------------------------------------------")
     print("You will also need to set up a owner.")
-    print("To do this you will need your id")
-    print("To get your ID you need to go to your discord settings and go to Appearence and enable Developer Mode")
+    print("To do this you will need your ID.")
+    print("To get your ID you need to go to your Discord settings and go to appearance and enable developer mode.")
     newowner = input("Please input your User ID here: \n")
     o = open('owner.file', 'w')
     o.write(newowner)
     print("--------------------------------------------------")
-    print("Thank you, i have received your id")
+    print("Thank you, I have received your ID.")
     print("--------------------------------------------------")
     print("Now we must set up a prefix. To do this, I am going to ask you what you want it to be, just putit in.")
     newprefix = input("Please input your prefix here: \n")
     o = open('prefix.file', 'w')
     o.write(newprefix)
     print("--------------------------------------------------")
-    print("Thank you, i have received your prefix")
+    print("Thank you, I have received your prefix.")
     print("--------------------------------------------------")
     o = open('setup.txt', 'w')
     o.write("yes")
@@ -63,7 +63,7 @@ option = input("What would you like to do right now. \n"
                "\n"
                "1) Start the bot \n"
                "\n"
-               "2) Reset the bots token \n"
+               "2) Reset the bot's token \n"
                "\n"
                "3) Update the owner \n"
                "\n"
@@ -81,7 +81,7 @@ if option == "1":
 
 elif option == "2":
     print("--------------------------------------------------")
-    changetoken = input("PLease input your new bot's token: \n")
+    changetoken = input("Please input your new bot token: \n")
     o = open('token.file', 'a')
     o.write(changetoken)
     print("Thank you, I have received your new token")
@@ -113,13 +113,13 @@ elif option == "2":
 elif option == "3":
 
         print("--------------------------------------------------")
-        changeowner = input("PLease input your new Owner ID: \n")
+        changeowner = input("Please input your new owner ID: \n")
         o = open('owner.file', 'a')
         o.write(changeowner)
         print("Thank you, I have received your new token")
         print("You will now be directed to the menu")
         print("--------------------------------------------------")
-        newoption = input("What would you like to do right now. \n"
+        newoption = input("What would you like to do right now? \n"
                        "\n"
                        "1) Start the bot \n"
                        "\n"
@@ -140,11 +140,11 @@ elif option == "3":
             print("You may get a error when exiting this, ignore it.")
             exit()
         else:
-            print("Well you must provide a answer!")
+            print("Well, you must provide a answer!")
 
 elif option == "4":
     print("Thank you for using my bot, enjoy your day!")
     print("You may get a error when exiting this, ignore it.")
     exit()
 else:
-    print("Well you must provide a answer!")
+    print("Well, you must provide a answer!")
