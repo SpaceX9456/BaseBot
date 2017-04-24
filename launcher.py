@@ -20,7 +20,7 @@ if setup == "no":
     print("If you need any support with this bot go to https://discord.gg/SAERSza")
     print("Now to get you started, you will need to input your token for your bot")
     print("To get your token, you need to go to https://discordapp.com/developers/applications/me and create a app, then once you have done that, you need to click create a bot user.")
-    newtoken = input("PLease input your bot's token: \n")
+    newtoken = input("Please input your bot's token: \n")
     o = open('token.file', 'w')
     o.write(newtoken)
     print("--------------------------------------------------")
@@ -62,13 +62,12 @@ option = input("What would you like to do right now. \n"
                "\n"
                "1) Start the bot \n"
                "\n"
-               "2) Reset the bot's token \n"
-               "\n"
-               "3) Update the owner \n"
-               "\n"
-               "4) Exit the launcher \n")
+               "2) Exit the launcher \n"
 print("--------------------------------------------------")
 if option == "1":
+    print("--------------------------------------------------")
+    print("Starting the bot")
+    print("--------------------------------------------------")           
     interpreter = sys.executable
     cmd = (interpreter, "BaseBot.py")
 
@@ -79,69 +78,6 @@ if option == "1":
             break
 
 elif option == "2":
-    print("--------------------------------------------------")
-    changetoken = input("Please input your new bot token: \n")
-    o = open('token.file', 'a')
-    o.write(changetoken)
-    print("Thank you, I have received your new token")
-    print("You will now be directed to the menu")
-    print("--------------------------------------------------")
-    newoption = input("What would you like to do right now. \n"
-                   "\n"
-                   "1) Start the bot \n"
-                   "\n"
-                   "2) Exit the launcher \n")
-    print("--------------------------------------------------")
-    if option == "1":
-        interpreter = sys.executable
-        cmd = (interpreter, "BaseBot.py")
-
-        while True:
-            try:
-                code = subprocess.call(cmd)
-            except KeyboardInterrupt:
-                break
-
-    elif option == "2":
-        print("Thank you for using my bot, enjoy your day!")
-        print("You may get a error when exiting this, ignore it.")
-        exit()
-    else:
-        print("Well you must provide a answer!")
-
-elif option == "3":
-
-        print("--------------------------------------------------")
-        changeowner = input("Please input your new owner ID: \n")
-        o = open('owner.file', 'a')
-        o.write(changeowner)
-        print("Thank you, I have received your new token")
-        print("You will now be directed to the menu")
-        print("--------------------------------------------------")
-        newoption = input("What would you like to do right now? \n"
-                       "\n"
-                       "1) Start the bot \n"
-                       "\n"
-                       "2) Exit the launcher \n")
-        print("--------------------------------------------------")
-        if option == "1":
-            interpreter = sys.executable
-            cmd = (interpreter, "BaseBot.py")
-
-            while True:
-                try:
-                    code = subprocess.call(cmd)
-                except KeyboardInterrupt:
-                    break
-
-        elif option == "2":
-            print("Thank you for using my bot, enjoy your day!")
-            print("You may get a error when exiting this, ignore it.")
-            exit()
-        else:
-            print("Well, you must provide a answer!")
-
-elif option == "4":
     print("Thank you for using my bot, enjoy your day!")
     print("You may get a error when exiting this, ignore it.")
     exit()
