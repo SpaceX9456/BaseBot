@@ -1,7 +1,7 @@
 # BaseBot
 
 # What is this?
-BaseBot is a Discord bot made by SpaceX that is simple to use. Below is the instructions on how to install it. Once you download it, you are free to modify it and if you need any support, you may join this discord server. https://discord.gg/SAERSza <br>
+BaseBot is a Discord bot made by czZollo that is simple to use. Below is the instructions on how to install it. Once you download it, you are free to modify it and if you need any support, you may join this discord server. https://discord.gg/SAERSza <br>
 <br>
 If you would like to have your version of the bot on the support server, ask the CEO.
 
