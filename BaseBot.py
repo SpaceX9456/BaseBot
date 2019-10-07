@@ -40,6 +40,9 @@ async def on_message(message):
         temp = await client.send_message(message.channel, 'Pinging')
         await asyncio.sleep(2)
         await client.edit_message(temp, ':ping_pong: , Pong')
+    
+    elif message.content.startswith(prefix + 'kick'):
+        await client.send_message(message.channel, "UNDER CONSTRUCTION")
 
 
     elif message.content.startswith(prefix + 'help'):
