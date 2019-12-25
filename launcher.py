@@ -62,7 +62,7 @@ option = input("What would you like to do right now. \n"
                "\n"
                "1) Start the bot \n"
                "\n"
-               "2) Exit the launcher \n"
+               "2) Exit the launcher \n")
 print("--------------------------------------------------")
 if option == "1":
     print("--------------------------------------------------")
